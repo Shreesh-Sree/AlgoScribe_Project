@@ -40,3 +40,6 @@ functions/go.sum
 # Temporary files
 *.tmp
 *.temp
+
+# Git credentials (security)
+.git-credentials
