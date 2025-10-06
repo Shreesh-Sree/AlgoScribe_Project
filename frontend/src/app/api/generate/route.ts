@@ -22,10 +22,10 @@ export async function POST(request: NextRequest) {
 
     // No usage limits for college project
 
-    // Call the Go backend
+    // Call the Python backend
     const backendUrl = process.env.BACKEND_URL || 'http://localhost:8080'
     
-    const response = await fetch(`${backendUrl}/api/generate`, {
+    const response = await fetch(`${backendUrl}/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

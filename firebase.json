@@ -32,7 +32,7 @@
     {
       "source": "functions",
       "codebase": "default",
-      "runtime": "go121"
+      "runtime": "python311"
     }
   ]
 }
